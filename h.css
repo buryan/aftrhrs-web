@@ -98,3 +98,20 @@ footer{text-align:center;padding:60px 22px 50px;color:#86868b;font-size:13px}foo
 .hero{padding-top:80px}.hero h1{width:88%}.cd{width:100%;text-align:center}.cdn{justify-content:center}.hcta .btn{width:100%;justify-content:center}.strip{grid-template-columns:1fr 1fr 1fr;gap:6px}.strip div{height:70px;border-radius:12px 12px 0 0}.strip span{font-size:8.5px;left:8px;letter-spacing:.08em}}
 @media(prefers-reduced-motion:reduce){.tn.now .dot{animation:none}}
 .hero .facts{max-width:900px}.dot svg{width:32px;height:32px}
+
+/* v4: motto, roster */
+.sub.c{text-align:center;margin:-8px auto 30px;max-width:620px;color:#a1a1a6}
+.motto{margin-top:28px;padding:44px 40px;border-radius:24px;text-align:center;border:1px solid rgba(255,255,255,.08);background:radial-gradient(120% 140% at 50% 0%,rgba(224,160,48,.10),transparent 60%)}
+.motto blockquote{margin:0 0 14px;font-size:clamp(30px,4.4vw,52px);font-weight:800;letter-spacing:-.04em;line-height:1.05}
+.motto p:not(.lab){margin:0 auto;max-width:560px;color:#a1a1a6;font-size:16px}
+.roster{display:grid;grid-template-columns:1fr 1fr;gap:10px 16px;max-width:900px;margin:0 auto}
+.cl{display:grid;grid-template-columns:110px 1fr auto;align-items:center;gap:12px;padding:16px 20px;border-radius:16px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08)}
+.cn{font-weight:700;letter-spacing:-.01em}.cs{color:#a1a1a6;font-size:14px}
+.pr{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 10px;border-radius:99px;border:1px solid}
+.pr.hi{color:#f3cf82;border-color:rgba(224,160,48,.55);background:rgba(224,160,48,.12)}
+.pr.md{color:#aab6ff;border-color:rgba(111,143,255,.45);background:rgba(111,143,255,.08)}
+.pr.lo{color:#86868b;border-color:rgba(255,255,255,.14)}
+.road.four{grid-template-columns:repeat(4,1fr)}
+#nabor .note{text-align:center}
+@media(max-width:900px){.road.four{grid-template-columns:1fr 1fr}.road.four .rs1:after{display:none}}
+@media(max-width:600px){.roster{grid-template-columns:1fr}.road.four{grid-template-columns:1fr}.cl{grid-template-columns:90px 1fr auto;padding:14px 16px}.motto{padding:32px 22px}}

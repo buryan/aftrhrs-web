@@ -1,7 +1,7 @@
 const RAIDS=[ /* EDITUJ ZDE: kills = počet poražených bossů */
  {name:"Onyxia's Lair",size:"40 hráčů",bosses:1,kills:0,status:"Od 9. 12. 2026",note:"Attunement: Drakefire Amulet",img:"dragon.jpg"},
- {name:"Hyjal Summit",size:"20 hráčů",bosses:13,kills:0,status:"Od 9. 12. 2026",note:"Nový raid · 13 bossů*",img:"gryphon.jpg"},
- {name:"The Barrow Deeps",size:"10 hráčů",bosses:8,kills:0,status:"Od 9. 12. 2026",note:"Nový raid · 8 bossů*",img:"forge.jpg"}];
+ {name:"Hyjal Summit",size:"20 hráčů",bosses:13,kills:0,status:"Od 9. 12. 2026",note:"Nový raid · 13 bossů*",img:"hyjal.jpg"},
+ {name:"The Barrow Deeps",size:"10 hráčů",bosses:8,kills:0,status:"Od 9. 12. 2026",note:"Nový raid · 8 bossů*",img:"barrow.jpg"}];
 const DUNGEONS=[
  {tier:"Začátek · cca 13–30",list:["Ragefire Chasm","★ Hall of Thanes","The Deadmines","Wailing Caverns","Shadowfang Keep","The Stockade","★ Ruins of Lordaeron","★ Excavation Site"]},
  {tier:"Střed · cca 28–45",list:["Blackfathom Deeps","Gnomeregan","Razorfen Kraul","Scarlet Monastery","★ City of Dalaran","★ The Drowned City","★ Krol'dok Stronghold"]},
