@@ -17,3 +17,8 @@ if(!(STATIC||RM)){const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isI
 const mb=$('#mbar'),vis=new Set();const upd=()=>mb.classList.toggle('on',vis.size==0);
 const mo=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?vis.add(e.target):vis.delete(e.target));upd()},{threshold:0});
 [$('.hero'),...$$('main .btn')].forEach(e=>mo.observe(e));
+
+(function(){const L=Date.parse('2026-11-05T00:00:00+01:00'),R=Date.parse('2026-12-09T00:00:00+01:00');const l=$('#cdl'),b=$$('#cdn b');
+function t(){let n=Date.now(),T=L,lab='START WOW: FOREVER';if(n>=L){T=R;lab='PRVNÍ RAIDY · 9. 12.'}if(n>=R){$('#cd').style.display='none';return}
+let d=Math.max(0,T-n)/1000;const v=[Math.floor(d/86400),Math.floor(d%86400/3600),Math.floor(d%3600/60),Math.floor(d%60)];l.textContent=lab;v.forEach((x,i)=>b[i].textContent=String(x).padStart(2,'0'))}
+t();setInterval(t,1000)})();
