@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 872 94" width="872" height="94"><g fill="none" stroke="#fff" stroke-width="9">
+<path d="M2 82 L30 -1 L58 82"/>
+<path transform="translate(86)" d="M4.5 80 V4.5 H50 M4.5 40 H42"/>
+<path transform="translate(156)" d="M0 4.5 H58 M29 4.5 V80"/>
+<path transform="translate(236)" d="M52 4.5 H4.5 V75.5 H52 M4.5 40 H46"/>
+<path transform="translate(316)" d="M4.5 80 V4.5 H31 A18 18 0 0 1 31 40.5 H4.5 M29 40.5 L54 80"/>
+<path transform="translate(450)" d="M4.5 0 V80 M53.5 0 V80 M4.5 40 H53.5"/>
+<path transform="translate(630)" d="M4.5 0 V49 A24.5 27 0 0 0 53.5 49 V0"/>
+<path transform="translate(714)" d="M4.5 80 V4.5 H31 A18 18 0 0 1 31 40.5 H4.5 M29 40.5 L54 80"/>
+<path transform="translate(792)" d="M50 15 C44 3 8 0 8 21 C8 41 52 36 52 58 C52 84 10 84 3 68"/>
+</g><path fill="#fff" d="M597 11 A40 40 0 1 0 590 75 A37.5 37.5 0 1 1 597 11 Z"/></svg>
